@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* การตั้งค่าสำหรับ header */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #006400;
+    color: white;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navbar {
+    margin-left: auto; /* ดันเมนูให้ไปอยู่ทางขวาสุด */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar a.language {
+    border-left: 1px solid #ffffff;
+    padding-left: 10px;
+}
+
+/* การตั้งค่าสำหรับส่วนเนื้อหา */
+.content {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.content img {
+    max-width: 30%;
+    height: auto;
+    border: 5px solid #f3f3f3;
+    margin-left: 20px;
+}
+.header-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
